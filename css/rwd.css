@@ -1,0 +1,177 @@
+@media screen and (max-width: 1024px) {
+
+    header .header-btn ul li a{
+        font-size: 1.5em;
+    }
+
+    .TopBox .TB_Content img {
+        width: 30%;
+    }
+
+    .TopBox .TB_Content .TB_ContText h5 {
+        font-size: 2em;
+        font-weight: 600;
+    }
+
+    .Offer {
+        padding: 5% 4%;
+    }
+
+
+    .Offer .Offer-list .OfferItem {
+        display: block;
+        height: auto;
+    }
+
+    .Offer .Offer-list .OfferItem .OfferItemiddle{
+        top: 0;
+        transform: translateY(0);
+     margin-top: 15px;
+    }
+
+
+    .Mission h3 {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .TopBanner-bg {
+        background-position: -80px;
+    }
+
+    .TopBox .TB_Content .TB_ContText h3 {
+        font-size: 2em;
+    }
+
+    .TopBox .TB_Content .TB_ContText h5 {
+        font-size: 1em;
+    }
+
+    .Mission h3 {
+        font-size: 1.2em;
+    }
+
+    .Offer .Offer-list .OfferItem h2 {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .Offer .Offer-list .OfferItem h5 {
+        font-size: 1em;
+    }
+
+    .Unique .sixlist .sixbox-top .sixbox:nth-child(1),
+    .Unique .sixlist .sixbox-top .sixbox:nth-child(3),
+    .Unique .sixlist .sixbox-bottom .sixbox:nth-child(1),
+    .Unique .sixlist .sixbox-bottom .sixbox:nth-child(2),
+    .Unique .sixlist .sixbox-bottom .sixbox:nth-child(3) {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .Unique .sixlist {
+        left: 0;
+    }
+
+    .Serve h3 {
+        font-size: 1.5em;
+    }
+
+    footer,
+    .Unique,
+    .Serve,
+    .Offer,
+    .AboutWe,
+    .Mission {
+        padding: 10% 4%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    footer a,
+    footer a:visited,
+    footer a:focus {
+        padding: 10px 0;
+        margin: 10px auto;
+        width: 150px;
+        display: block;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+/*Unique的位置調整*/
+
+@media screen and (min-width: 1280px) {
+
+    .Unique .sixlist .sixbox-top .sixbox:nth-child(1) {
+        position: relative;
+        top: 3em;
+        left: 2em;
+    }
+
+    .Unique .sixlist .sixbox-top .sixbox:nth-child(3) {
+        position: relative;
+        left: -3.8em;
+        top: 6em;
+    }
+
+    .Unique .sixlist .sixbox-bottom .sixbox:nth-child(1) {
+        position: relative;
+        left: -8.7em;
+        top: -3.5em;
+    }
+
+    .Unique .sixlist .sixbox-bottom .sixbox:nth-child(2) {
+        position: relative;
+        left: -12.8em;
+        top: 2.8em;
+    }
+
+    .Unique .sixlist .sixbox-bottom .sixbox:nth-child(3) {
+        position: relative;
+        top: -0.3em;
+        left: -14.7em;
+    }
+}
+
+@media screen and (min-width: 1680px) {
+
+    .Unique .sixlist .sixbox-top .sixbox:nth-child(1) {
+        position: relative;
+        top: 3em;
+        left: 2em;
+    }
+
+    .Unique .sixlist .sixbox-top .sixbox:nth-child(3) {
+        position: relative;
+        left: -4.5em;
+        top: 6.3em;
+    }
+
+    .Unique .sixlist .sixbox-bottom .sixbox:nth-child(1) {
+        position: relative;
+        left: -8.7em;
+        top: -3.5em;
+    }
+
+    .Unique .sixlist .sixbox-bottom .sixbox:nth-child(2) {
+        position: relative;
+        left: -13.1em;
+        top: 2.5em;
+    }
+
+    .Unique .sixlist .sixbox-bottom .sixbox:nth-child(3) {
+        position: relative;
+        top: -0.3em;
+        left: -15.2em;
+    }
+}

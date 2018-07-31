@@ -1,0 +1,533 @@
+/*Body*/
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'San Francisco';
+    letter-spacing: 1px;
+}
+
+
+.header-move {
+    background: #fffffff5;
+    box-shadow: 0 0 5px #2c456382;
+    transition: all 0.15s ease-out 0s;
+}
+
+
+
+
+/*header*/
+
+header {
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+}
+
+header .header-btn ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header .header-btn ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+
+
+
+
+
+
+
+/*header button*/
+
+header .header-btn ul li a {
+    color: #444c67;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+/*Top Banner*/
+
+.TopBanner-bg {
+    width: 100%;
+    background-image: url("../images/paper-3211179 2.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    position: relative;
+}
+
+.TopBox {
+    width: 100%;
+    height: 100vh;
+}
+
+.TopBox .TB_Content {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 15px;
+}
+
+.TopBox .TB_Content .TB_ContText {
+    margin-top: 30px;
+}
+
+.TopBox .TB_Content img {
+    width: 10%;
+}
+
+.TopBox .TB_Content .TB_ContText h3 {
+    padding: 0;
+    margin: 0 20px 0 0;
+    color: #11193cc7;
+    font-size: 3em;
+    display: inline-block;
+}
+
+.TopBox .TB_Content .TB_ContText h5 {
+    padding: 0;
+    margin: 0;
+    color: #19235087;
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Mission*/
+
+.Mission {
+    width: 100%;
+    padding: 5% 4%;
+    background: #5f90cc;
+    background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+    text-align: center;
+}
+
+.Mission hr,
+.Unique hr {
+    width: 8%;
+    border: 1px solid #fff;
+}
+
+
+.Mission h3 {
+    font-size: 2.2em;
+    margin: 15px 0;
+    padding: 0;
+    color: #fff;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*About We*/
+
+.AboutWe {
+    width: 100%;
+    padding: 5% 4%;
+    text-align: center;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/mirrored-squares.png");
+    background-image: url("https://www.transparenttextures.com/patterns/twinkle-twinkle.png");
+}
+
+.AboutWe .AboutText {
+    height: auto;
+}
+
+.AboutWe h1 {
+    font-size: 2em;
+    margin: 0 0 3% 0;
+    padding: 0;
+    color: #5f90cc;
+}
+
+.AboutWe h3 {
+    font-size: 1.2em;
+    margin: 15px 0;
+    padding: 0;
+    text-align: left;
+    color: #696969;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.AboutWe h3 span {
+    color: #5f90cc;
+}
+
+.AboutWe hr,
+.Serve hr {
+    width: 7%;
+    border: 1px solid #5f90cc;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Serve*/
+
+.Offer {
+    width: 100%;
+    padding: 5% 4%;
+    background: #2861a3;
+    text-align: center;
+}
+
+.Offer h1,
+.JoinUs h1,
+footer h1 {
+    font-size: 2em;
+    margin: 0 0 3% 0;
+    padding: 0;
+    color: #fff;
+    font-weight: 400;
+}
+
+.Offer .Offer-list .OfferIcon {
+    width: 100%;
+    transition: all 0.15s ease-out 0s;
+}
+
+.Offer .Offer-list .OfferIcon img {
+    width: 70%;
+}
+
+.Offer .Offer-list .OfferItem h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin: 0 0 15px 0;
+    text-align: left;
+}
+
+.Offer .Offer-list .OfferItem h5 {
+    color: #fff;
+    font-size: 0.5em;
+    margin: 15px 0;
+    text-align: left;
+}
+
+.Offer .Offer-list .OfferItem {
+    display: none;
+    width: 100%;
+    height: 284.95px;
+    transition: all 0.15s ease-out 0s;
+}
+
+.Offer .Offer-list .OfferItem .OfferItemiddle {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.15s ease-out 0s;
+}
+
+.JoinUs h3 {
+    color: #fff;
+    font-size: 1.5em;
+    margin: 15px 0 35px 0;
+    line-height: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+/*Unique*/
+
+.Unique {
+    width: 100%;
+    padding: 5% 4%;
+    background-image: url("../images/shutterstock_613657259.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+.Unique .sixlist {
+    display: block;
+    margin: 30px 0;
+    position: relative;
+    left: 6em;
+}
+
+.Unique .sixlist .sixbox {
+    background: #ffffff4a;
+    width: 180px;
+    -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    height: 150px;
+    padding: 10px;
+    display: inline-block;
+    margin: 1%;
+    box-shadow: inset 0px 0px 100px 0px #ffffffc7;
+    border: 1px solid #ffffff9e;
+}
+
+.sixbox-top,
+.sixbox-bottom {
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Unique .sixlist .sixbox-top .sixbox:nth-child(1) {
+    position: relative;
+    top: 3em;
+    left: 2em;
+}
+
+.Unique .sixlist .sixbox-top .sixbox:nth-child(3) {
+    position: relative;
+    left: -3.8em;
+    top: 5.8em;
+}
+
+.Unique .sixlist .sixbox-bottom .sixbox:nth-child(1) {
+    position: relative;
+    left: -8.5em;
+    top: -3em;
+}
+
+.Unique .sixlist .sixbox-bottom .sixbox:nth-child(2) {
+    position: relative;
+    left: -12.5em;
+    top: 3em;
+}
+
+.Unique .sixlist .sixbox-bottom .sixbox:nth-child(3) {
+    position: relative;
+    top: -0.4em;
+    left: -14.4em;
+}
+
+
+.Unique h1 {
+    font-size: 2.5em;
+    margin: 0 0 1% 0;
+    padding: 0;
+    color: #fff;
+    font-weight: 500;
+    text-shadow: 0 1px 2px #000;
+}
+
+.Unique h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-shadow: 0 1px 2px #506482;
+    font-weight: 600;
+}
+
+.Unique h3 {
+    font-size: 1.3em;
+    margin: 15px 0;
+    padding: 0;
+    text-align: left;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.5em;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.Unique h3 span {
+    font-weight: 600;
+    border-bottom: 1px solid;
+}
+
+
+
+
+
+
+
+/*Serve*/
+
+.Serve {
+    width: 100%;
+    padding: 5% 4%;
+    background: #fff;
+    background-image: url("https://www.transparenttextures.com/patterns/twinkle-twinkle.png");
+    text-align: center;
+}
+
+.Serve h1 {
+    font-size: 2em;
+    margin: 0 0 3% 0;
+    padding: 0;
+    color: #5f90cc;
+    font-weight: 400;
+}
+
+.Serve img {
+    width: 30%;
+    box-sizing: content-box;
+    border: 3px solid transparent;
+}
+
+.Serve h3 {
+    padding: 0;
+    margin: 15px 0;
+    font-size: 1em;
+    color: #5f90cc;
+    font-weight: 400;
+}
+
+.Serve .col-md-2 {
+    padding: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+/*Join Us*/
+
+.JoinUs {
+    width: 100%;
+    padding: 6%;
+    background-image: url("../images/join.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.JoinUs a,
+.JoinUs a:visited,
+.JoinUs a:focus {
+    font-size: 1.2em;
+    color: #fcc80e;
+    text-decoration: none;
+    border: 1px solid #fcc80e;
+    padding: 10px 50px;
+    display: inline-block;
+    text-decoration: none;
+    outline-style: none;
+}
+
+.JoinUs a:hover {
+    background-color: #fcc80e;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a,
+footer a:visited,
+footer a:focus {
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 50px;
+    display: inline-block;
+    margin: 1% 1% 0 1%;
+    text-decoration: none;
+    outline-style: none;
+}
+
+footer a:hover {
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+/*footer(contact)*/
+
+footer {
+    width: 100%;
+    padding: 6%;
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/black-twill.png");
+    text-align: center;
+}
+
+
+footer h5 {
+    padding: 0;
+    margin: 10px 0;
+    color: #f3f3f3;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+/*ClearFix*/
+
+.clearfix {
+    clear: both !important;
+}

@@ -1,0 +1,40 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #5f90cc;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-1 {
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <title>serve-02</title>
+  <g>
+    <polyline class="cls-1" points="92.13 35.78 92.73 35.78 96.86 35.78 115.58 35.78 115.58 121.45 100.91 136.12 34.41 136.12 34.41 35.78 50.85 35.78 53.14 35.78 57.02 35.78 57.97 35.78"/>
+    <polyline class="cls-1" points="100.91 135.41 100.91 121.45 114.88 121.45"/>
+    <path class="cls-1" d="M82.3,32.46V21.18a7.3,7.3,0,0,0-7.3-7.3h0a7.3,7.3,0,0,0-7.3,7.3V32.46"/>
+    <path class="cls-1" d="M88.88,26.42h-4.1v6a2.48,2.48,0,0,1-2.48,2.48H67.7a2.48,2.48,0,0,1-2.48-2.48v-6h-4.1a3,3,0,0,0-3,3v7.73a3,3,0,0,0,3,3H88.88a3,3,0,0,0,3-3V29.42A3,3,0,0,0,88.88,26.42Z"/>
+    <circle class="cls-1" cx="75" cy="25.43" r="2.98"/>
+    <line class="cls-1" x1="43.21" y1="67.58" x2="106.79" y2="67.58"/>
+    <line class="cls-1" x1="43.21" y1="74.28" x2="106.79" y2="74.28"/>
+    <line class="cls-1" x1="43.21" y1="80.97" x2="106.79" y2="80.97"/>
+    <line class="cls-1" x1="43.21" y1="87.66" x2="106.79" y2="87.66"/>
+    <rect class="cls-1" x="42.11" y="48.31" width="65.79" height="11.48"/>
+    <line class="cls-1" x1="43.21" y1="98.14" x2="68.8" y2="98.14"/>
+    <line class="cls-1" x1="43.21" y1="106.09" x2="68.8" y2="106.09"/>
+    <line class="cls-1" x1="43.21" y1="114.04" x2="68.8" y2="114.04"/>
+    <line class="cls-1" x1="43.21" y1="121.99" x2="68.8" y2="121.99"/>
+    <rect class="cls-2" x="79.81" y="96.91" width="6" height="6"/>
+    <rect class="cls-2" x="79.81" y="106.96" width="6" height="6"/>
+    <rect class="cls-2" x="79.81" y="117" width="6" height="6"/>
+  </g>
+</svg>
