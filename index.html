@@ -16,7 +16,15 @@
 <body>
     <!-- header -->
     <div class="TopBanner-bg" id="Home">
-        <header>
+        <div id="rwd-burger">
+            <button class="hamburger-menu" id="Ham">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <header id="rwd-header">
+            <div class="rwd-close" id="Ham_close"><img src="images/close.svg" alt=""></div>
             <div class="header-btn">
                 <ul>
                     <li><a href="#Home" class="header-btn">Home</a></li>
@@ -209,8 +217,19 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/office.js"></script>
+    <script src="js/burger.js"></script>
     <script src="js/wow.min.js"></script>
     <script>
+
+        if ($(window).width() > 768) {
+            $("#rwd-burger").css("display", "none");
+            $("#rwd-header").css("display", "block");
+
+        } else {
+            $("#rwd-header").css("display", "none");
+            $("#rwd-burger").css("display", "block");
+        }
+
     var wow = new WOW({
         boxClass: 'wow',
         animateClass: 'animated',

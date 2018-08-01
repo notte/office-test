@@ -1,10 +1,9 @@
 $(function() {
 
 
-	// header欄位控制
+    // header欄位控制
     $(window).scroll(function() {
 
-        console.log()
 
         if ($('header').offset().top > 100) {
 
@@ -43,24 +42,25 @@ $(function() {
     // header button滑動
     $('.header-btn').click(function() {
 
-    	var i=$(this).attr('href').substr(1);
+        var i = $(this).attr('href').substr(1);
 
-    $('html,body').animate(
+        $('html,body').animate(
 
-        { scrollTop: $('#'+i).offset().top }
+            { scrollTop: $('#' + i).offset().top }
 
-        , 800
+            , 800
 
 
-    );
+        );
 
     });
 
     // 捲軸滑動
 
-    $(window).scroll(function(){
 
-    	
+    $(window).scroll(function() {
+
+
 
     });
 
