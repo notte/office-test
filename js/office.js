@@ -55,17 +55,5 @@ $(function() {
 
     });
 
-    // 捲軸滑動
-
-
-    $(window).scroll(function() {
-
-
-
-    });
-
-
-
-
 
 });

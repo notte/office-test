@@ -218,15 +218,6 @@ header .header-btn ul li a {
 
 
 
-
-
-
-
-
-
-
-
-
 /*Serve*/
 
 .Offer {
@@ -244,7 +235,6 @@ footer h1,
     margin: 0 0 2% 0;
     padding: 0;
     color: #fff;
-    font-weight: 400;
 }
 
 .Offer .Offer-list .OfferIcon {
@@ -265,7 +255,7 @@ footer h1,
 
 .Offer .Offer-list .OfferItem h5 {
     color: #fff;
-    font-size: 0.5em;
+    font-size: 1.2em;
     margin: 15px 0;
     text-align: left;
 }
@@ -339,6 +329,12 @@ footer h1,
     display: inline-block;
     margin: 1%;
     box-shadow: inset -30px -30px 150px 20px #5f90cc;
+    transition: all 0.15s ease-out 0s;
+}
+
+.Unique .sixlist .sixbox:hover {
+    background: #53b8ff82;
+    box-shadow: inset -30px -30px 150px 20px #7da2d05e;
 }
 
 .sixbox-top,
@@ -437,7 +433,6 @@ footer h1,
     margin: 0 0 2% 0;
     padding: 0;
     color: #5f90cc;
-    font-weight: 400;
 }
 
 .Serve img {
@@ -449,7 +444,7 @@ footer h1,
 .Serve h3 {
     padding: 0;
     margin: 15px 0;
-    font-size: 1em;
+    font-size: 1.2em;
     color: #5f90cc;
     font-weight: 400;
 }
@@ -522,15 +517,6 @@ footer a:hover {
 
 
 
-
-
-
-
-
-
-
-
-
 /*footer(contact)*/
 
 footer {
@@ -548,15 +534,8 @@ footer h5,
     margin: 15px 0;
     color: #f3f3f3;
     font-weight: 400;
+    font-size: 1.2em;
 }
-
-
-
-
-
-
-
-
 
 /*ClearFix*/
 
