@@ -129,6 +129,26 @@
 }
 
 
+@media screen and (max-width: 640px) {
+
+    .Unique .sixlist{
+        left: 0;
+    }
+
+    .Unique .sixlist .sixbox-top .sixbox:nth-child(1),
+    .Unique .sixlist .sixbox-top .sixbox:nth-child(3),
+    .Unique .sixlist .sixbox-bottom .sixbox:nth-child(1),
+    .Unique .sixlist .sixbox-bottom .sixbox:nth-child(2),
+    .Unique .sixlist .sixbox-bottom .sixbox:nth-child(3) {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+
+}
+
+
 
 @media screen and (max-width: 480px) {
 
