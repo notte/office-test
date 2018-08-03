@@ -251,12 +251,14 @@ footer h1,
     font-size: 1.5em;
     margin: 0 0 15px 0;
     text-align: left;
+    font-weight: 500;
 }
 
 .Offer .Offer-list .OfferItem h5 {
     color: #fff;
     font-size: 1.2em;
     margin: 15px 0;
+    font-weight: 300;
     text-align: left;
 }
 
@@ -391,7 +393,7 @@ footer h1,
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    text-shadow: 0 0 5px #1923504f;
+    text-shadow: 0 0 3px #1923504f;
     font-weight: 500;
 }
 

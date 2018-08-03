@@ -59,9 +59,21 @@
     .Mission h3 {
         font-size: 1.5em;
     }
+
+        .Offer .Offer-list .OfferIcon{
+        height:auto;
+    }
+
 }
 
+
+
 @media screen and (max-width: 768px) {
+
+    .Unique-Serve{
+
+     background-position: right;
+    }
 
     /*漢堡start*/
     #rwd-burger {
@@ -106,7 +118,17 @@
     .TopBanner-bg header .rwd-close {
         display: block;
     }
+
+    .Offer .Offer-list .OfferItem h2{
+        font-size: 2em;
+    }
+
+    .Offer .Offer-list .OfferItem h5{
+        font-size: 1.5em;
+    }
 }
+
+
 
 @media screen and (max-width: 480px) {
 
@@ -131,12 +153,12 @@
     }
 
     .Offer .Offer-list .OfferItem h2 {
-        text-align: center;
-        font-size: 1.5em;
+        text-align: left;
+        font-size: 2em;
     }
 
     .Offer .Offer-list .OfferItem h5 {
-        font-size: 1em;
+        font-size: 1.5em;
     }
 
     .Unique .sixlist .sixbox-top .sixbox:nth-child(1),
@@ -168,19 +190,30 @@
     }
 }
 
+
+@media screen and (max-width: 375px) {
+
+    .TopBox .TB_Content .TB_ContText h3 {
+        font-size: 1.8em;
+    }
+}
+
+
 @media screen and (max-width: 360px) {
 
     header .header-btn ul li a {
         font-size: 2em;
     }
 
-    .TopBox .TB_Content .TB_ContText h3 {
-        font-size: 1.8em;
-    }
-
     .Mission h3 {
         line-height: 1.5em;
     }
+
+
+    .TopBox .TB_Content .TB_ContText h3 {
+        font-size: 1.5em;
+    }
+
 }
 
 
