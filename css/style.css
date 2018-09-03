@@ -602,6 +602,10 @@ footer h5,
     clear: both !important;
 }
 
+.swiper-button-next, .swiper-button-prev{
+        border-color: #0b7efa !important;
+    }
+
 .swiper-button-next:focus,.swiper-button-prev:focus{
     outline: none;
 }

@@ -110,8 +110,13 @@
 
 @media screen and (max-width: 1024px) {
 
+    .TopBox .TB_Right .TB_ContText {
+    margin-top: 160px;
+}
+
     .Logo {
-        width: 27%;
+            width: 27%;
+    top: 8%;
     }
 
     .TopBox {
@@ -160,6 +165,12 @@
 
 
 @media screen and (max-width: 768px) {
+
+
+
+    .Logo{
+        width: 40%;
+    }
 
     .swiper-button-next, .swiper-button-prev{
         border-color: #0b7efa !important;
@@ -253,6 +264,10 @@
         background-size: cover;
         background-image: url("../images/slide_small3.jpg");
         background-position: right top;
+    }
+
+    .TopBox .TB_Right .TB_ContText{
+        margin-top: 70px;
     }
 
 
@@ -413,7 +428,7 @@
 @media screen and (max-width: 375px) {
 
     .Logo {
-        width: 50% !important;
+        width: 60% !important;
     }
 
     .TopBox .TB_Right .TB_ContText h3 {
@@ -614,7 +629,7 @@
 
 /*平板寬高*/
 
-@media screen and (max-width: 1024px) and (max-height: 1366px) {
+@media screen and (width: 1024px) and (height: 1366px) {
 
     .Logo {
         width: 33%;
