@@ -232,6 +232,67 @@
 
 @media screen and (max-width: 640px) {
 
+
+    .TopBox .TB_Right .TB_ContText h3 {
+        font-size: 5em;
+    }
+
+    .TopBox .TB_Right .TB_ContText h5 {
+        font-size: 2em;
+    }
+
+    #particles-js {
+        display: none !important;
+    }
+
+    .Logo {
+        width: 45% !important;
+    }
+
+    .SlideBox {
+        display: block;
+        height: 100vh;
+        position: relative;
+        width: 100%;
+    }
+    /*swiper*/
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+        margin: 0 !important;
+    }
+
+    .animeBox {
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        flex: none;
+        top: 0;
+    }
+
+    .TopBox {
+        width: 100%;
+        height: auto;
+        flex: none;
+        position: absolute;
+        z-index: 1;
+    }
+
+
+    .swiper-button-prev,
+    .swiper-container-rtl .swiper-button-next {
+        left: 50%;
+        transform: translateX(-50%);
+        margin-left: -25px;
+    }
+
+    .swiper-button-next,
+    .swiper-container-rtl .swiper-button-prev {
+        left: 50% !important;
+        transform: translateX(-50%);
+        margin-left: 26px;
+    }
+
     .Unique .sixlist {
         left: 0;
     }
@@ -252,7 +313,7 @@
 @media screen and (max-width: 480px) {
 
     header .header-btn ul li a {
-        font-size: 3em;
+        font-size: 2em;
     }
 
     .TopBanner-bg {
@@ -309,16 +370,55 @@
     }
 }
 
+@media screen and (max-width: 414px) {
+
+    .Logo {
+        width: 55% !important;
+    }
+
+    .TopBox .TB_Right .TB_ContText h3 {
+        font-size: 2.5em;
+    }
+
+    .TopBox .TB_Right .TB_ContText h5 {
+        font-size: 2em;
+        line-height: 1.3em;
+    }
+}
+
 
 @media screen and (max-width: 375px) {
 
-    .TopBox .TB_Content .TB_ContText h3 {
-        font-size: 1.8em;
+    .Logo {
+        width: 50% !important;
+    }
+
+    .TopBox .TB_Right .TB_ContText h3 {
+        font-size: 2.5em;
+    }
+
+    .TopBox .TB_Right .TB_ContText h5 {
+        font-size: 1.5em;
+        line-height: 1.3em;
     }
 }
 
 
 @media screen and (max-width: 360px) {
+
+    .Logo {
+        width: 55% !important;
+    }
+
+
+    .TopBox .TB_Right .TB_ContText h3 {
+        font-size: 2.5em;
+    }
+
+    .TopBox .TB_Right .TB_ContText h5 {
+        font-size: 1.5em;
+        line-height: 1.3em;
+    }
 
     header .header-btn ul li a {
         font-size: 2em;
@@ -338,11 +438,23 @@
 
 @media screen and (max-width: 320px) {
 
+    .TopBox .TB_Right .TB_ContText {
+        margin-top: 40px;
+    }
+
     .TopBox .TB_Content .TB_ContText h3 {
         font-size: 1.5em;
         margin: 0 10px;
     }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        top: 88% !important;
+    }
 }
+
+
+
 
 
 
@@ -385,6 +497,9 @@
         color: #fff;
     }
 }
+
+
+
 
 
 
@@ -466,6 +581,9 @@
         left: -15.2em;
     }
 }
+
+
+
 
 
 /*平板寬高*/
