@@ -1,6 +1,4 @@
 @media screen and (min-width: 2300px) {
-
-
     .Logo {
         width: 20%;
     }
@@ -163,6 +161,10 @@
 
 @media screen and (max-width: 768px) {
 
+    .swiper-button-next, .swiper-button-prev{
+        border-color: #0b7efa !important;
+    }
+
     .SlideBox #Home header .rwd-close {
         display: block;
     }
@@ -231,6 +233,27 @@
 
 
 @media screen and (max-width: 640px) {
+    /*Top Banner*/
+    .swiper-slide_1 {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("../images/slide_small1.jpg");
+        background-position: left top;
+    }
+
+    .swiper-slide_2 {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("../images/slide_small2.jpg");
+        background-position: right top;
+    }
+
+    .swiper-slide_3 {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("../images/slide_small3.jpg");
+        background-position: right top;
+    }
 
 
     .TopBox .TB_Right .TB_ContText h3 {
@@ -432,6 +455,11 @@
     .TopBox .TB_Content .TB_ContText h3 {
         font-size: 1.5em;
     }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        top: 88% !important;
+    }
 }
 
 
@@ -446,12 +474,8 @@
         font-size: 1.5em;
         margin: 0 10px;
     }
-
-    .swiper-button-next,
-    .swiper-button-prev {
-        top: 88% !important;
-    }
 }
+
 
 
 
@@ -497,6 +521,7 @@
         color: #fff;
     }
 }
+
 
 
 
@@ -581,6 +606,7 @@
         left: -15.2em;
     }
 }
+
 
 
 
