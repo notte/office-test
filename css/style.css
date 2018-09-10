@@ -136,6 +136,31 @@ header .header-btn ul li a {
   background-repeat: no-repeat;
 }
 
+#particles2-js{    
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background: #ffde71;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  /*display: none;*/
+}
+
+#particles3-js{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  /*position: absolute;*/
+  /*display: none;*/
+}
 
 .TopBox {
     flex: 1;
@@ -168,7 +193,6 @@ header .header-btn ul li a {
     color: #00a6ff;
     font-size: 5em;
     display: inline-block;
-    text-shadow: 0 0 20px #ffffff82;
 }
 
 .TopBox .TB_Right .TB_ContText h5 {
@@ -594,6 +618,100 @@ footer h5,
     font-weight: 400;
     font-size: 1.2em;
 }
+
+
+
+/* job專區 */
+
+.jobBox .bonus{
+    width: 100%;
+    height: 100%;
+    padding: 120px 0 110px 0;
+    background-image: url("../images/shutterstock_796329814.jpg");   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+
+}
+
+.jobBox .jobitem{
+    width: 100%;
+    padding: 15px 0;
+    /*border: 2px solid #5f90cc;*/
+    border-radius: 3px;
+
+}
+
+.jobBox .jobitem h3{
+    margin: 0;
+    text-align: left;
+    color: #5f90cc;
+    font-size: 1.2em;
+}
+
+.jobBox a:hover{
+    text-decoration: none;
+}
+
+.jobBox .bonus ul{
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.jobBox .departmentName h2{
+    font-size: 2em;
+    color: #2861a3;
+    text-align: center;
+    margin: 0;
+    padding: 20px 5px;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 300;
+}
+
+.jobBox .bonus ul li{
+    font-size: 1em;
+    color: #fff;
+    list-style: none;
+    text-align: center;
+    margin: 10px 0;
+    text-shadow: 0 0 0 #000;
+    text-shadow: 0 1px 3px #0000008c;
+    font-weight: 600;
+}
+
+.jobBox .bonus h1{
+    font-size:2em;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    padding: 0 0 20px 0;
+    text-align: center;
+    text-shadow: 0 1px 3px #0000008c;
+}
+
+.jobBox .department .departmentName{
+    border-bottom: 1px solid #2861a3;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.jobBox .department .departmentName .jobIcon{
+    width: 45px;
+    display: inline-block;
+}
+
+.jobBox .department .jobList{
+    padding: 15px;
+}
+
+.jobBox .department{
+    margin: 30px 0;
+}
+
+
+
 
 
 /*ClearFix*/

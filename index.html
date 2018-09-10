@@ -59,10 +59,12 @@
             </div>
             <!-- Add Arrows -->
             <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-prev" id="button-prev"></div>
         </div>
         <div class="animeBox">
             <div id="particles-js"></div>
+            <div id="particles2-js"></div>
+            <div id="particles3-js"></div>
             <div class="TopBox">
                 <div class="TB_Right">
                     <div class="TB_ContText">
@@ -289,28 +291,400 @@
     });
     </script>
     <script>
-    function ChangeText() {
+    let animeOne = {
+        "particles": {
+            "number": {
+                "value": 80,
+                "density": {
+                    "enable": true,
+                    "value_area": 1000
+                }
+            },
+            "color": {
+                "value": "#83b3ef"
+            },
+            "shape": {
+                "type": "polygon",
+                "stroke": {
+                    "width": 0,
+                    "color": "#83b3ef"
+                },
+                "polygon": {
+                    "nb_sides": 5
+                },
+                "image": {
+                    "src": "img/github.svg",
+                    "width": 100,
+                    "height": 100
+                }
+            },
+            "opacity": {
+                "value": 0.5,
+                "random": false,
+                "anim": {
+                    "enable": false,
+                    "speed": 1,
+                    "opacity_min": 0.1,
+                    "sync": false
+                }
+            },
+            "size": {
+                "value": 3,
+                "random": true,
+                "anim": {
+                    "enable": false,
+                    "speed": 40,
+                    "size_min": 0.1,
+                    "sync": false
+                }
+            },
+            "line_linked": {
+                "enable": true,
+                "distance": 150,
+                "color": "#83b3ef",
+                "opacity": 0.4,
+                "width": 1
+            },
+            "move": {
+                "enable": true,
+                "speed": 5,
+                "direction": "none",
+                "random": false,
+                "straight": false,
+                "out_mode": "out",
+                "bounce": false,
+                "attract": {
+                    "enable": false,
+                    "rotateX": 600,
+                    "rotateY": 1200
+                }
+            }
+        },
+        "interactivity": {
+            "detect_on": "canvas",
+            "events": {
+                "onhover": {
+                    "enable": true,
+                    "mode": "repulse"
+                },
+                "onclick": {
+                    "enable": true,
+                    "mode": "push"
+                },
+                "resize": true
+            },
+            "modes": {
+                "grab": {
+                    "distance": 400,
+                    "line_linked": {
+                        "opacity": 1
+                    }
+                },
+                "bubble": {
+                    "distance": 400,
+                    "size": 40,
+                    "duration": 2,
+                    "opacity": 8,
+                    "speed": 3
+                },
+                "repulse": {
+                    "distance": 200,
+                    "duration": 0.4
+                },
+                "push": {
+                    "particles_nb": 4
+                },
+                "remove": {
+                    "particles_nb": 2
+                }
+            }
+        },
+        "retina_detect": false
+    }
 
+    let animeTwo = {
+        "particles": {
+            "number": {
+                "value": 40,
+                "density": {
+                    "enable": true,
+                    "value_area": 1000
+                }
+            },
+            "color": {
+                "value": "#8cb0da"
+            },
+            "shape": {
+                "type": "image",
+                "stroke": {
+                    "width": 0,
+                    "color": "#8cb0da"
+                },
+                "polygon": {
+                    "nb_sides": 3
+                },
+                "image": {
+                    "src": "images/line.jpg",
+                    "width": 2000,
+                    "height": 0.5
+                }
+            },
+            "opacity": {
+                "value": 0.8,
+                "random": false,
+                "anim": {
+                    "enable": false,
+                    "speed": 10,
+                    "opacity_min": 0.8,
+                    "sync": false
+                }
+            },
+            "size": {
+                "value": 150,
+                "random": false,
+                "anim": {
+                    "enable": false,
+                    "speed": 10,
+                    "size_min": 500,
+                    "sync": false
+                }
+            },
+            "line_linked": {
+                "enable": false,
+                "distance": 96.20472365193136,
+                "color": "#ffffff",
+                "opacity": 0.16034120608655228,
+                "width": 9.299789953020031
+            },
+            "move": {
+                "enable": true,
+                "speed": 80,
+                "direction": "right",
+                "random": true,
+                "straight": true,
+                "out_mode": "out",
+                "bounce": false,
+                "attract": {
+                    "enable": false,
+                    "rotateX": 1420.4657549380909,
+                    "rotateY": 2324.947488255008
+                }
+            }
+        },
+        "interactivity": {
+            "detect_on": "canvas",
+            "events": {
+                "onhover": {
+                    "enable": false,
+                    "mode": "bubble"
+                },
+                "onclick": {
+                    "enable": false,
+                    "mode": "push"
+                },
+                "resize": true
+            },
+            "modes": {
+                "grab": {
+                    "distance": 400,
+                    "line_linked": {
+                        "opacity": 0.5
+                    }
+                },
+                "bubble": {
+                    "distance": 353.2535873510851,
+                    "size": 4,
+                    "duration": 0.7308694910712106,
+                    "opacity": 1,
+                    "speed": 3
+                },
+                "repulse": {
+                    "distance": 121.81158184520177,
+                    "duration": 0.4
+                },
+                "push": {
+                    "particles_nb": 4
+                },
+                "remove": {
+                    "particles_nb": 2
+                }
+            }
+        },
+        "retina_detect": true
+    }
+
+    let animeThree = {
+        "particles": {
+            "number": {
+                "value": 45,
+                "density": {
+                    "enable": false,
+                    "value_area": 500
+                }
+            },
+            "color": {
+                "value": "#2861a3"
+            },
+            "shape": {
+                "type": "star",
+                "stroke": {
+                    "width": 0,
+                    "color": "#000000"
+                },
+                "polygon": {
+                    "nb_sides": 5
+                },
+                "image": {
+                    "src": "http://wiki.lexisnexis.com/academic/images/f/fb/Itunes_podcast_icon_300.jpg",
+                    "width": 100,
+                    "height": 100
+                }
+            },
+            "opacity": {
+                "value": 0.5,
+                "random": false,
+                "anim": {
+                    "enable": false,
+                    "speed": 1,
+                    "opacity_min": 0.1,
+                    "sync": false
+                }
+            },
+            "size": {
+                "value": 8,
+                "random": true,
+                "anim": {
+                    "enable": false,
+                    "speed": 40,
+                    "size_min": 0.1,
+                    "sync": false
+                }
+            },
+            "line_linked": {
+                "enable": false,
+                "distance": 150,
+                "color": "#ffffff",
+                "opacity": 0.4,
+                "width": 1
+            },
+            "move": {
+                "enable": true,
+                "speed": 6,
+                "direction": "top-right",
+                "random": false,
+                "straight": false,
+                "out_mode": "out", //bounce
+                "bounce": false,
+                "attract": {
+                    "enable": true,
+                    "rotateX": 600,
+                    "rotateY": 1200
+                }
+            }
+        },
+        "interactivity": {
+            "detect_on": "canvas",
+            "events": {
+                "onhover": {
+                    "enable": false,
+                    "mode": "bubble"
+                },
+                "onclick": {
+                    "enable": true,
+                    "mode": "remove"
+                },
+                "resize": true
+            },
+            "modes": {
+                "grab": {
+                    "distance": 200,
+                    "line_linked": {
+                        "opacity": 1
+                    }
+                },
+                "bubble": {
+                    "distance": 400,
+                    "size": 40,
+                    "duration": 2,
+                    "opacity": 8,
+                    "speed": 3
+                },
+                "repulse": {
+                    "distance": 200,
+                    "duration": 0.4
+                },
+                "push": {
+                    "particles_nb": 4
+                },
+                "remove": {
+                    "particles_nb": 2
+                }
+            }
+        },
+        "retina_detect": true
+    }
+
+    function ChangeText() {
 
         if (swiper.progress == 0.5) {
             document.querySelector('#slideTitle').innerHTML = 'Agility'
             document.querySelector('#slideContent').innerHTML = 'We leverage agile processes to empower changes for keeping the client’s competitive advantages.'
+            document.querySelector('#particles2-js').style.display = 'block'
+            document.querySelector('#particles2-js').style.opacity = 1
+            document.querySelector('#particles-js').style.display = 'none'
+            document.querySelector('#particles3-js').style.display = 'none'
         }
 
         if (swiper.progress == 0.75) {
             document.querySelector('#slideTitle').innerHTML = 'Fun'
             document.querySelector('#slideContent').innerHTML = 'We are a fun, productive and creative team.<br>We believe in personal growth, happiness and passion for life.'
+            document.querySelector('#particles3-js').style.display = 'block'
+            document.querySelector('#particles3-js').style.opacity = 1
+            document.querySelector('#particles2-js').style.display = 'none'
+            document.querySelector('#particles-js').style.display = 'none'
         }
+
 
         if (swiper.progress == 1) {
             document.querySelector('#slideTitle').innerHTML = 'Innovation'
             document.querySelector('#slideContent').innerHTML = 'We constantly pursue the latest stable technology to optimize and expand our services,We provide the most suitable solution for our clients.'
+            document.querySelector('#particles-js').style.display = 'block'
+            document.querySelector('#particles3-js').style.display = 'none'
+            document.querySelector('#particles2-js').style.display = 'none'
         }
-
 
     }
 
+        function ChangeTextclick() {
+
+        if (swiper.progress == -0) {
+            document.querySelector('#slideTitle').innerHTML = 'Fun'
+            document.querySelector('#slideContent').innerHTML = 'We are a fun, productive and creative team.<br>We believe in personal growth, happiness and passion for life.'
+            document.querySelector('#particles3-js').style.display = 'block'
+            document.querySelector('#particles3-js').style.opacity = 1
+            document.querySelector('#particles2-js').style.display = 'none'
+            document.querySelector('#particles-js').style.display = 'none'
+
+        }
+
+        if (swiper.progress == 0.25) {
+            document.querySelector('#slideTitle').innerHTML = 'Innovation'
+            document.querySelector('#slideContent').innerHTML = 'We constantly pursue the latest stable technology to optimize and expand our services,We provide the most suitable solution for our clients.'
+            document.querySelector('#particles-js').style.display = 'block'
+            document.querySelector('#particles3-js').style.display = 'none'
+            document.querySelector('#particles2-js').style.display = 'none'
+
+        }
+
+    }
+
+    document.querySelector('#button-prev').addEventListener('click',ChangeTextclick)
+
+    particlesJS('particles-js', animeOne)
+    particlesJS('particles2-js', animeTwo)
+    particlesJS('particles3-js', animeThree)
     setInterval("ChangeText()", 0)
+
     </script>
 </body>
 
