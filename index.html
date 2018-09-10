@@ -424,9 +424,9 @@
                     "nb_sides": 3
                 },
                 "image": {
-                    "src": "images/line.jpg",
+                    "src": "images/line.png",
                     "width": 2000,
-                    "height": 0.5
+                    "height": 5
                 }
             },
             "opacity": {
@@ -516,17 +516,17 @@
     let animeThree = {
         "particles": {
             "number": {
-                "value": 45,
+                "value": 12,
                 "density": {
                     "enable": false,
-                    "value_area": 500
+                    "value_area": 800
                 }
             },
             "color": {
                 "value": "#2861a3"
             },
             "shape": {
-                "type": "star",
+                "type": "image",
                 "stroke": {
                     "width": 0,
                     "color": "#000000"
@@ -535,9 +535,9 @@
                     "nb_sides": 5
                 },
                 "image": {
-                    "src": "http://wiki.lexisnexis.com/academic/images/f/fb/Itunes_podcast_icon_300.jpg",
-                    "width": 100,
-                    "height": 100
+                    "src": "images/football.png",
+                    "width": 10,
+                    "height": 10
                 }
             },
             "opacity": {
@@ -551,12 +551,12 @@
                 }
             },
             "size": {
-                "value": 8,
-                "random": true,
+                "value": 45,
+                "random": false,
                 "anim": {
                     "enable": false,
-                    "speed": 40,
-                    "size_min": 0.1,
+                    "speed": 50,
+                    "size_min": 50,
                     "sync": false
                 }
             },
@@ -569,11 +569,11 @@
             },
             "move": {
                 "enable": true,
-                "speed": 6,
-                "direction": "top-right",
-                "random": false,
+                "speed": 10,
+                "direction": "bottom",
+                "random": true,
                 "straight": false,
-                "out_mode": "out", //bounce
+                "out_mode": "bounce", //bounce
                 "bounce": false,
                 "attract": {
                     "enable": true,
