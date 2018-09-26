@@ -54,4 +54,60 @@ $(function() {
         );
 
     });
+
+
+
+    $("#myBtn").click(function() {
+
+        $("#myModal").css('display', 'block')
+        $(document.body).css('overflow-y', 'hidden')
+
+    })
+
+
+    $(".close").click(function() {
+
+        $("#myModal").css('display', 'none')
+        $(document.body).css('overflow-y', 'scroll')
+
+    })
+
+
+    $(document).on('click', '.bonus', function() {
+
+        if ($("#myModal").css('display') == "block") {
+
+            $("#myModal").css('display', 'block')
+
+        }
+
+
+    })
+
+
+    // 點擊視窗的時候
+    $(window).click(function() {
+
+
+        // 如果觸發事件的className是Modal
+        if (event.target.className == "Modal") {
+
+            // 隱藏Modal
+            $("#myModal").css('display', 'none')
+            $(document.body).css('overflow-y', 'scroll')
+
+
+        }
+
+    })
+
+
+
+
+
+
+
+
+
+
 });
